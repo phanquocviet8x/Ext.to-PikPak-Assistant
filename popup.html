@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ext.to PikPak Assistant v1.0</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <!-- <div class="logo">🔍</div> -->
+            <img src="icons/icon48.png" class="logo" alt="Logo">
+            <div>
+                <div class="title">Ext.to PikPak Assistant</div>
+                <div class="subtitle">Quick Torrent Search</div>
+            </div>
+        </div>
+
+        <div class="group">
+
+            <label>Movie / Keyword</label>
+
+            <input id="keyword" type="text" placeholder="" autofocus>
+
+        </div>
+
+        <div class="row">
+
+            <div class="group">
+                <label>Sort</label>
+
+                <select id="sort">
+                    <option value="age">Age</option>
+                    <option value="seeders">Seeders</option>
+                    <option value="size">Size</option>
+                </select>
+            </div>
+
+            <div class="group">
+                <label>Order</label>
+
+                <select id="order">
+                    <option value="desc">Desc</option>
+                    <option value="asc">Asc</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="group">
+                <label>Min GB</label>
+                <input id="sizeFrom" type="number">
+            </div>
+
+            <div class="group">
+                <label>Max GB</label>
+                <input id="sizeTo" type="number">
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="group">
+                <label>Concurrent Workers</label>
+
+                <input id="concurrent" type="number" min="1" max="50" value="1">
+            </div>
+        </div>
+
+        <label class="checkbox">
+
+            <input id="adult" type="checkbox">
+
+            <span>Include Adult Results</span>
+
+        </label>
+
+        <button id="searchBtn">
+
+            Search
+
+        </button>
+
+        <div class="credits">
+            Created by
+            <a href="https://www.facebook.com/ct251192/" target="_blank">
+                Tuan.VHIT
+            </a>
+        </div>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
