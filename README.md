@@ -9,6 +9,8 @@ A lightweight browser extension designed to automate the workflow between [Ext.t
 ![Demo GIF](assets/demo.gif)
 
 **How it works:**
+![Workflow](assets/workflow.jpg)
+
 | 1. Search Easily | 2. Instant Status Check | 3. One-Click Add |
 | :---: | :---: | :---: |
 | ![Search](assets/extension.PNG) | ![Status Check](assets/ext.PNG) | ![Add to PikPak](assets/pikpak.png) |
